@@ -34,7 +34,7 @@ app.get('/sign-in', async (request, response) => {
   });
 
 
-  app.post('/signup', async (request, response) => {
+  app.post('/sign-up', async (request, response) => {
     let client;
   
     try {
